@@ -75,6 +75,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Community.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\CommunityBranchTesting.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommunityBranchTesting.feature</DependentUpon>
+    </Compile>
+    <Compile Include="StepDefinition\CommunityBranchTestingSteps.cs" />
     <Compile Include="Utilities\Hooks1.cs" />
     <Compile Include="PageObject\CommunityClass1.cs" />
     <Compile Include="StepDefinition\CommunitySteps.cs" />
@@ -86,6 +92,10 @@
     <None Include="Features\Community.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Community.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\CommunityBranchTesting.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CommunityBranchTesting.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
